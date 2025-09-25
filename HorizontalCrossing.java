@@ -10,8 +10,7 @@ public class HorizontalCrossing {
             this.y = y;
         }
     }
-
-    // Your original method (kept for similarity; no longer used in main)
+    // Count how many times a horizontal line at lineY crosses the polygon
     static int countCrossings(Point[] vertices, double lineY) {
         int n = vertices.length;
         int crossings = 0;
